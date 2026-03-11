@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: netbox-facilities
+Version: 0.1.0
+Summary: BICSI 002 Facility, Structural, and MEP management for NetBox
+Home-page: https://github.com/yourusername/netbox-facilities
+Author: Telecom Craft
+License: Apache 2.0
+Dynamic: author
+Dynamic: home-page
+Dynamic: license
+Dynamic: summary
