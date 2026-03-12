@@ -178,11 +178,6 @@ class OperationalRequirementProfile(NetBoxModel):
         super().save(*args, **kwargs)
 
 
-class AvailabilityClassProfile(NetBoxModel):
-    """A BICSI 002 availability profile for sites."""
-    pass
-
-
 class SiteRiskProfile(NetBoxModel):
     """The Risk Profile (Standalone Model)"""
     name = models.CharField(

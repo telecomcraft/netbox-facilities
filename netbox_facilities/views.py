@@ -19,32 +19,32 @@ class LocationProfileListView(generic.ObjectListView):
     queryset = models.LocationProfile.objects.all()
     table = tables.LocationProfileTable
 
-# --- Site Risk Profile Views ---
-class SiteRiskProfileListView(generic.ObjectListView):
-    queryset = models.SiteRiskProfile.objects.all()
-    table = tables.SiteRiskProfileTable # We will build this table next!
+# # --- Site Risk Profile Views ---
+# class SiteRiskProfileListView(generic.ObjectListView):
+#     queryset = models.SiteRiskProfile.objects.all()
+#     table = tables.SiteRiskProfileTable # We will build this table next!
 
-class SiteRiskProfileView(generic.ObjectView):
-    queryset = models.SiteRiskProfile.objects.all()
+# class SiteRiskProfileView(generic.ObjectView):
+#     queryset = models.SiteRiskProfile.objects.all()
 
-class SiteRiskProfileEditView(generic.ObjectEditView):
-    queryset = models.SiteRiskProfile.objects.all()
-    form = forms.SiteRiskProfileForm
+# class SiteRiskProfileEditView(generic.ObjectEditView):
+#     queryset = models.SiteRiskProfile.objects.all()
+#     form = forms.SiteRiskProfileForm
 
-class SiteRiskProfileDeleteView(generic.ObjectDeleteView):
-    queryset = models.SiteRiskProfile.objects.all()
+# class SiteRiskProfileDeleteView(generic.ObjectDeleteView):
+#     queryset = models.SiteRiskProfile.objects.all()
 
-# --- Site Profile Views ---
-class SiteProfileListView(generic.ObjectListView):
-    queryset = models.SiteProfile.objects.all()
-    table = tables.SiteProfileTable # We will build this table next!
+# # --- Site Profile Views ---
+# class SiteProfileListView(generic.ObjectListView):
+#     queryset = models.SiteProfile.objects.all()
+#     table = tables.SiteProfileTable # We will build this table next!
 
-class SiteProfileView(generic.ObjectView):
-    queryset = models.SiteProfile.objects.all()
+# class SiteProfileView(generic.ObjectView):
+#     queryset = models.SiteProfile.objects.all()
 
-class SiteProfileEditView(generic.ObjectEditView):
-    queryset = models.SiteProfile.objects.all()
-    form = forms.SiteProfileForm
+# class SiteProfileEditView(generic.ObjectEditView):
+#     queryset = models.SiteProfile.objects.all()
+#     form = forms.SiteProfileForm
 
-class SiteProfileDeleteView(generic.ObjectDeleteView):
-    queryset = models.SiteProfile.objects.all()
+# class SiteProfileDeleteView(generic.ObjectDeleteView):
+#     queryset = models.SiteProfile.objects.all()
